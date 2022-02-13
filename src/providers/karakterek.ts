@@ -56,7 +56,7 @@ export const karakterek = [
     qty: 2,
   },
   {
-    image: '/images/karakterek/kobol.png',
+    image: '/images/karakterek/kobold.png',
     name: 'Kis csatár / Kobold',
     desc: '4 sebzés.',
     cost: 2,
