@@ -11,7 +11,7 @@ const Home: NextPage<Props> = (props) => {
         <title>Úri népek uralma Kártyajáték - Very Pesti(s)ek</title>
         <meta
           name="description"
-          content="Úri népek uralma Kártyajáték - Very Pesti(s)ek Kezdőlap"
+          content="Úri népek uralma Kártyajáték - Very Pesti(s)ek"
         />
       </Head>
 
