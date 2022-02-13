@@ -1,0 +1,80 @@
+export const karakterek = [
+  {
+    name: 'Erős Ogre',
+    desc: '12-t sebez.',
+    cost: 8,
+    qty: 2,
+  },
+  {
+    name: 'Pajzs Szerelő',
+    desc: '10 pajzsot ad.',
+    cost: 6,
+    qty: 4,
+  },
+  {
+    name: 'Varázsló',
+    desc: '6 körön át 2-t sebez, akkor is, ha van pajzsa az ellenfélnek.',
+    cost: 4,
+    qty: 4,
+  },
+  {
+    name: 'Kereskedő',
+    desc: 'Húzz fel 1 kártyát.',
+    cost: 4,
+    qty: 2,
+  },
+  {
+    name: 'Gyógyító',
+    desc: '5 sebzés, amennyit sebezést okozol az adott körben, annyit gyógyít',
+    cost: 4,
+    qty: 4,
+  },
+  {
+    name: 'Erős Páncélos',
+    desc: '14 sebzés, 10 pajzs.',
+    cost: 10,
+    qty: 2,
+  },
+  {
+    name: 'Csere Kereskedő',
+    desc: 'Cserélj ki egy kártyát.',
+    cost: 2,
+    qty: 2,
+  },
+  {
+    name: 'Paladin Aladár',
+    desc: '1. kör: 6 sebzés, 2.	kör 4 pajzs.',
+    cost: 4,
+    qty: 2,
+  },
+  {
+    name: 'Kis csatár / Kobold',
+    desc: '4 sebzés.',
+    cost: 2,
+    qty: 4,
+  },
+  {
+    name: 'Lovas Lovag',
+    desc: '8 sebzés pajzsra 2 körön át, ha az ellenfélnek nincs pajzsa, akkor annyi pajzsot kapsz amennyit sebeztél volna az ellenfél pajzsába.',
+    cost: 6,
+    qty: 2,
+  },
+  {
+    name: 'Pajzsos',
+    desc: '3 körön át + 2 pajzs.',
+    cost: 2,
+    qty: 4,
+  },
+  {
+    name: 'Íjász',
+    desc: '4 körön át 2 sebzés.',
+    cost: 3,
+    qty: 4,
+  },
+  {
+    name: 'Pajzsos Goblin',
+    desc: '3 körön át 2 sebzés, + 2 pajzs.',
+    cost: 4,
+    qty: 2,
+  },
+];

@@ -1,0 +1,70 @@
+body {
+  overflow-x: hidden;
+  z-index: -1;
+  background-color: $white;
+}
+
+main {
+  margin-inline: auto;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  font-family: 'Roboto', sans-serif;
+  color: $black;
+}
+
+p {
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+  color: $coolGray-600;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  margin-inline: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-dec {
+  text-decoration: none;
+  color: $coolGray-400;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.content {
+  width: 50%;
+  margin-inline: auto;
+
+  @media (max-width: 1600px) {
+    width: 55%;
+  }
+
+  @media (max-width: 1356px) {
+    width: 65%;
+  }
+
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+}

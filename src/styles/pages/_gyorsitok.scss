@@ -1,0 +1,13 @@
+.gyorsitok {
+  &-title {
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    margin: 2rem 0;
+  }
+
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
