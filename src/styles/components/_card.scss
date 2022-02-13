@@ -1,7 +1,8 @@
-.karakter {
+.card {
   width: 100%;
   border-radius: 15px;
   box-shadow: 0 4px 8px 6px $gray-200;
+  overflow: hidden;
 
   p {
     margin: 0;

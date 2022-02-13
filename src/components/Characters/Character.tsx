@@ -1,4 +1,5 @@
 interface Props {
+  image: string;
   name: string;
   desc: string;
   cost: number;
@@ -6,23 +7,22 @@ interface Props {
 }
 
 const Character: React.FC<Props> = (props) => {
-  const { name, desc, cost, qty } = props;
+  const { image, name, desc, cost, qty } = props;
 
   return (
-    <div className="karakter">
-      {/* <div className="karakter-image-container">
-        <img
-          src={'https://cdn.zsuzsabazara.hu/' + titleImg}
-          alt={title}
-          title={title}
-          className="product-image"
-        />
-      </div> */}
-      <div className="karakter-content">
-        <p className="karakter-name">{name}</p>
-        <p className="karakter-desc">{desc}</p>
-        <p className="karkater-cost">Energia költség: {cost}</p>
-        <p className="karkate-qty">Mennyiség (db/pakli): {qty}</p>
+    <div className="card">
+      <div className="card-image-container">
+        <img src={image} alt={name} className="card-image" />
+      </div>
+      <div className="card-content">
+        <p className="card-name">{name}</p>
+        <p className="card-desc">{desc}</p>
+        <p className="card-cost">
+          Energia költség: <b>{cost}</b>
+        </p>
+        <p className="card-qty">
+          Mennyiség (db/pakli): <b>{qty}</b>
+        </p>
       </div>
     </div>
   );

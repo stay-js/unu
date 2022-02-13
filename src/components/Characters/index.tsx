@@ -8,6 +8,7 @@ const Page: React.FC<Props> = (props) => {
     <div className="karakterek-container">
       {karakterek.map((karakter: Record<string, any>, index: number) => (
         <Character
+          image={karakter.image}
           name={karakter.name}
           desc={karakter.desc}
           cost={karakter.cost}

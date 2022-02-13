@@ -10,16 +10,18 @@ const Booster: React.FC<Props> = (props) => {
   const { image, color, desc, cost, qty } = props;
 
   return (
-    <div className="gyorsito">
-      <div className="gyorsito-image-container">
-        <div className="gyorsito-image">
-          <img src={image} alt={color} className="karakter-image" />
-        </div>
+    <div className="card">
+      <div className="card-image-container">
+        <img src={image} alt={color} className="card-image" />
       </div>
-      <div className="gyorsito-content">
-        <p className="gyorsito-desc">{desc}</p>
-        <p className="gyorsito-cost">Energia költség: {cost}</p>
-        <p className="gyorsito-qty">Mennyiség (db/pakli): {qty}</p>
+      <div className="card-content">
+        <p className="card-desc">{desc}</p>
+        <p className="card-cost">
+          Energia költség: <b>{cost}</b>
+        </p>
+        <p className="card-qty">
+          Mennyiség (db/pakli): <b>{qty}</b>
+        </p>
       </div>
     </div>
   );
