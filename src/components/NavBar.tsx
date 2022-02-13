@@ -68,9 +68,9 @@ const NavBar: React.FC<Props> = () => {
             </Link>
           </li>
           <li className="hamburger-navigation-item">
-            <Link href="/boosterek">
+            <Link href="/gyorsitok">
               <a className="hamburger-navigation-link" onClick={closeHamburger}>
-                Boosterek
+                Gyorsítok
               </a>
             </Link>
           </li>
