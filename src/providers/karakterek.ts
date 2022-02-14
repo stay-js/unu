@@ -84,8 +84,8 @@ export const karakterek = [
     qty: 4,
   },
   {
-    image: '/images/karakterek/pajzsos_goblin.png',
-    name: 'Pajzsos Goblin',
+    image: '/images/karakterek/pajzsos_kobold.png',
+    name: 'Pajzsos Kobold',
     desc: '3 körön át 2 sebzés, + 2 pajzs.',
     cost: 4,
     qty: 2,
