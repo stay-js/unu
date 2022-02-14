@@ -19,9 +19,8 @@ const Home: NextPage<Props> = (props) => {
         <h1 className="landing-page-title">Úri népek uralma</h1>
         <div className="landing-page-content">
           <p>
-            Az Úri népek uralma egy kártyajáték, ami az adott kártyák a
-            különböző karaktereire alapszik. 52 lapos a pakli, 2-8 játékos
-            ajánlott.
+            Az Úri népek uralma egy kártyajáték, ami az adott kártyák különböző
+            karaktereire alapszik. 52 lapos a pakli, 2-8 játékos ajánlott.
           </p>
           <p>
             Az egész kártyajáték középkori stílusú. Különböző karakterekből
