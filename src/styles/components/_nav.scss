@@ -18,7 +18,7 @@
     transform: translateY(-50%);
 
     &:hover {
-      color: $green-400;
+      color: $green-500;
     }
   }
 
@@ -53,21 +53,21 @@
     transition: opacity 300ms ease;
 
     &:hover {
-      color: $green-400;
+      color: $green-500;
     }
   }
 
   &-contact-btn {
     margin-left: 1rem;
     padding: 0.5rem 1rem;
-    background: $green-400;
-    border: 2px solid $green-400;
+    background: $green-500;
+    border: 2px solid $green-500;
     border-radius: 5px;
     color: $white;
 
     &:hover {
       background-color: transparent;
-      color: $green-400;
+      color: $green-500;
     }
   }
 }
