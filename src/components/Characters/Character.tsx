@@ -12,7 +12,7 @@ const Character: React.FC<Props> = (props) => {
   return (
     <div className="card">
       <div className="card-image-container">
-        <img src={image} alt={name} className="card-image" />
+        <img src={image} alt={name} className="card-image no-select" />
       </div>
       <div className="card-content">
         <p className="card-name">{name}</p>

@@ -6,6 +6,15 @@
     margin: 2rem 0;
   }
 
+  &-secondary-title {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &-content {
+    text-align: justify;
+  }
+
   &-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

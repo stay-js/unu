@@ -14,8 +14,8 @@ const Gyorsitok: NextPage<Props> = (props) => {
 
       <main className="gyorsitok content">
         <h1 className="gyorsitok-title">Gyorsítok</h1>
-        <h2>Leírás</h2>
-        <p>
+        <h2 className="karakterek-secondary-title">Leírás</h2>
+        <p className="gyorsitok-content">
           A gyorsítók szintén kártyák, csak nem karakterek, hanem a
           karaktereknek adnak plusz tulajdonságokat. Például van olyan gyorsító,
           amit, ha egy játékos lerak, akkor több körön keresztül másfélszer
@@ -32,7 +32,7 @@ const Gyorsitok: NextPage<Props> = (props) => {
           ellenfél.
         </p>
 
-        <h2>Gyorsítok Listája:</h2>
+        <h2 className="karakterek-secondary-title">Gyorsítok Listája:</h2>
         <Boosters />
       </main>
     </>

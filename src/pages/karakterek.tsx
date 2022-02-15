@@ -14,8 +14,8 @@ const Karakterek: NextPage<Props> = (props) => {
 
       <main className="karakterek content">
         <h1 className="karakterek-title">Karakterek</h1>
-        <h2>Leírás</h2>
-        <p>
+        <h2 className="karakterek-secondary-title">Leírás</h2>
+        <p className="karakterek-content">
           Van olyan karakter, ami pajzsot ad, ezt a játékos az életen felül
           kapja. Van, ami több körön keresztül sebez pl.: egy játékos lerak egy
           ilyen kártyát, ami 3 körön keresztül 2-t sebez, akkor 3 körön
@@ -33,7 +33,7 @@ const Karakterek: NextPage<Props> = (props) => {
           körön át sebez, illetve pajzsot ad.
         </p>
 
-        <h2>Karakterek Listája:</h2>
+        <h2 className="karakterek-secondary-title">Karakterek Listája:</h2>
         <Characters />
       </main>
     </>

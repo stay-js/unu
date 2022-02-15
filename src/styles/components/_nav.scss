@@ -12,9 +12,7 @@
   &-logo {
     color: $white;
     transition: color 0.3s ease;
-    position: absolute;
-    left: 5%;
-    top: 50%;
+    @include absPosition($top: 50%, $left: 2.5%);
     transform: translateY(-50%);
 
     &:hover {
@@ -24,13 +22,11 @@
 
   &-list {
     display: flex;
-    position: absolute;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
     align-items: center;
     color: $green-400;
     list-style: none;
+    @include absPosition($top: 50%, $right: 2.5%);
+    transform: translateY(-50%);
 
     @media (max-width: 576px) {
       display: none;
@@ -57,12 +53,13 @@
     }
   }
 
-  &-contact-btn {
+  &-btn {
     margin-left: 1rem;
     padding: 0.5rem 1rem;
     background: $green-500;
     border: 2px solid $green-500;
     border-radius: 5px;
+    text-decoration: none;
     color: $white;
 
     &:hover {
@@ -150,9 +147,7 @@
     z-index: 1;
     display: none;
     cursor: pointer;
-    position: absolute;
-    right: 5%;
-    top: 50%;
+    @include absPosition($top: 50%, $right: 2.5%);
     transform: translateY(-50%);
 
     @media (max-width: 576px) {

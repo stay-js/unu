@@ -31,7 +31,7 @@ const NavBar: React.FC<Props> = () => {
             </Link>
           </li>
           <Link href="/">
-            <a className="navigation-contact-btn no-dec">Kezdőlap</a>
+            <a className="navigation-btn">Kezdőlap</a>
           </Link>
         </ul>
 
