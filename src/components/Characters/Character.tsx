@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface Props {
   image: string;
   name: string;
@@ -12,7 +14,9 @@ const Character: React.FC<Props> = (props) => {
   return (
     <div className="card">
       <div className="card-image-container">
-        <img src={image} alt={name} className="card-image no-select" />
+        <div className="card-image no-select">
+          <Image src={image} alt={name} width={640} height={898} />
+        </div>
       </div>
       <div className="card-content">
         <p className="card-name">{name}</p>
