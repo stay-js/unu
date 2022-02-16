@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 interface Props {}
 
-const NavBar: React.FC<Props> = () => {
+const NavBar: React.FC<Props> = (props) => {
   const [isToggled, setIsToggled] = useState(false);
 
   const toggleHamburger = () => setIsToggled(!isToggled);
@@ -11,7 +11,7 @@ const NavBar: React.FC<Props> = () => {
 
   return (
     <header>
-      <nav className="navigation">
+      <nav className="navigation no-select">
         <div className="navigation-logo">
           <Link href="/">
             <a>
@@ -45,7 +45,7 @@ const NavBar: React.FC<Props> = () => {
         </div>
       </nav>
 
-      <nav className="hamburger">
+      <nav className="hamburger no-select">
         <ul
           className={
             isToggled
