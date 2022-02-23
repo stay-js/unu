@@ -14,9 +14,13 @@ const Character: React.FC<Props> = (props) => {
   return (
     <div className="card">
       <div className="card-image-container">
-        <div className="card-image no-select">
-          <Image src={image} alt={name} width={640} height={898} />
-        </div>
+        <Image
+          className="card-image no-select"
+          src={image}
+          alt={name}
+          width={640}
+          height={898}
+        />
       </div>
       <div className="card-content">
         <p className="card-name">{name}</p>

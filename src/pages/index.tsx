@@ -10,8 +10,48 @@ const Home: NextPage<Props> = (props) => {
       <Head>
         <title>Úri népek uralma Kártyajáték - Very Pesti(s)ek</title>
         <meta
-          name="description"
+          property="og:title"
           content="Úri népek uralma Kártyajáték - Very Pesti(s)ek"
+          key="title"
+        />
+        <meta
+          name="twitter:title"
+          content="Úri népek uralma Kártyajáték - Very Pesti(s)ek"
+        />
+
+        <meta name="url" content="https://unu.stayy.xyz/" />
+        <meta property="og:url" content="https://unu.stayy.xyz/" />
+        <meta property="twitter:url" content="https://unu.stayy.xyz/" />
+
+        <meta
+          name="description"
+          content="Az Úri népek uralma egy kártyajáték, ami az adott kártyák
+          különböző karaktereire alapszik. 52 lapos a pakli, 2-8 játékos ajánlott
+          Az egész kártyajáték középkori stílusú. Különböző karakterekből különböző
+          mennyiségű kártya van. Amit játékmenetről tudni kell/játékszabály:
+          Minden játékos 100 élettel kezd, körönként minden játékos maximum 10 energiát
+          használhat el. A játékot mindenki 6 lappal kezdi. A karakterek különböző
+          tulajdonságokkal rendelkeznek."
+        />
+        <meta
+          property="og:description"
+          content="Az Úri népek uralma egy kártyajáték, ami az adott kártyák
+          különböző karaktereire alapszik. 52 lapos a pakli, 2-8 játékos ajánlott
+          Az egész kártyajáték középkori stílusú. Különböző karakterekből különböző
+          mennyiségű kártya van. Amit játékmenetről tudni kell/játékszabály:
+          Minden játékos 100 élettel kezd, körönként minden játékos maximum 10 energiát
+          használhat el. A játékot mindenki 6 lappal kezdi. A karakterek különböző
+          tulajdonságokkal rendelkeznek."
+        />
+        <meta
+          name="twitter:description"
+          content="Az Úri népek uralma egy kártyajáték, ami az adott kártyák
+          különböző karaktereire alapszik. 52 lapos a pakli, 2-8 játékos ajánlott
+          Az egész kártyajáték középkori stílusú. Különböző karakterekből különböző
+          mennyiségű kártya van. Amit játékmenetről tudni kell/játékszabály:
+          Minden játékos 100 élettel kezd, körönként minden játékos maximum 10 energiát
+          használhat el. A játékot mindenki 6 lappal kezdi. A karakterek különböző
+          tulajdonságokkal rendelkeznek."
         />
       </Head>
 

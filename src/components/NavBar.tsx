@@ -14,7 +14,7 @@ const NavBar: React.FC<Props> = (props) => {
       <nav className="navigation no-select">
         <div className="navigation-logo">
           <Link href="/">
-            <a>
+            <a onClick={closeHamburger}>
               <h1 className="navigation-logo">Unu</h1>
             </a>
           </Link>
