@@ -30,9 +30,11 @@ const NavBar: React.FC<Props> = (props) => {
               <a className="navigation-link">Gyorsítok</a>
             </Link>
           </li>
-          <Link href="/">
-            <a className="navigation-btn">Kezdőlap</a>
-          </Link>
+          <li style={{ listStyle: 'none' }}>
+            <Link href="/">
+              <a className="navigation-btn">Kezdőlap</a>
+            </Link>
+          </li>
         </ul>
 
         <div
