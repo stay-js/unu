@@ -1,4 +1,4 @@
-export const karakterek = [
+const karakterek = [
   {
     image: '/images/karakterek/eros_ogre.png',
     name: 'Erős Ogre',
@@ -51,7 +51,7 @@ export const karakterek = [
   {
     image: '/images/karakterek/paladin_aladar.png',
     name: 'Paladin Aladár',
-    desc: '1. kör: 6 sebzés, 2.	kör 4 pajzs.',
+    desc: '1. kör: 6 sebzés, 2. kör 4 pajzs.',
     cost: 4,
     qty: 2,
   },
@@ -91,3 +91,5 @@ export const karakterek = [
     qty: 2,
   },
 ];
+
+export default karakterek;

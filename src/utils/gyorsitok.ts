@@ -1,4 +1,4 @@
-export const gyorsitok = [
+const gyorsitok = [
   {
     image: '/images/gyorsitok/piros.png',
     color: 'piros',
@@ -56,3 +56,5 @@ export const gyorsitok = [
     qty: 2,
   },
 ];
+
+export default gyorsitok;
