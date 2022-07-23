@@ -2,18 +2,18 @@ const navItems = [
   {
     name: 'Karakterek',
     path: '/karakterek',
-    id: 'nav-0',
+    id: 'cl5xt9rs2000009mi84dm8oz4',
   },
   {
     name: 'Gyorsítok',
     path: '/gyorsitok',
-    id: 'nav-1',
+    id: 'cl5xt9v37000109mi2w7ycxk6',
   },
   {
     name: 'Kezdőlap',
     path: '/',
     button: true,
-    id: 'nav-2',
+    id: 'cl5xt9zcm000209mifsa76u2t',
   },
 ];
 

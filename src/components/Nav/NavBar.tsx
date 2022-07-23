@@ -11,17 +11,17 @@ const NavBar: React.FC = () => (
       </Link>
     </div>
     <ul className="flex gap-4 mr-6">
-      {navItems.map((item) => (
-        <li key={item.id}>
-          <Link href={item.path!}>
+      {navItems.map(({ id, path, name, button }) => (
+        <li key={id}>
+          <Link href={path}>
             <a
               className={
-                item.button
+                button
                   ? 'text-white bg-green-500 px-4 py-2 rounded border-solid border-2 border-green-500 hover:text-green-500 hover:bg-transparent transition-all'
                   : 'text-white hover:text-green-500 duration-150 transition-colors text-sm md:text-base'
               }
             >
-              {item.name}
+              {name}
             </a>
           </Link>
         </li>
