@@ -1,9 +1,9 @@
-import '../styles/globals.css';
 import type { AppType } from 'next/dist/shared/lib/utils';
+import { MantineProvider } from '@mantine/core';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { MantineProvider } from '@mantine/core';
 import Nav from '../components/Nav';
+import '../styles/globals.css';
 
 const App: AppType = ({ Component, pageProps }) => (
   <>
