@@ -34,7 +34,6 @@ const App: AppType = ({ Component, pageProps }) => (
 
     <MantineProvider theme={{ primaryColor: 'green', fontFamily: 'Roboto' }}>
       <Nav />
-      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />
     </MantineProvider>
   </>
