@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply antialiased scroll-pt-20 scroll-smooth;
+  @apply antialiased;
 }
 
 body {
