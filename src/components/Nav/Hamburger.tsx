@@ -7,22 +7,17 @@ const Hamburger: React.FC = () => {
   const [isToggled, setIsToggled] = useState<boolean>(false);
 
   return (
-    <nav className="fixed top-0 z-50 flex items-center w-full h-16 font-sans shadow-md select-none bg-slate-800 place-content-between">
+    <nav className="fixed top-0 z-50 px-6 flex items-center w-full h-16 font-sans shadow-md select-none bg-slate-800 place-content-between">
       <Link href="/">
         <a
           onClick={() => setIsToggled(false)}
-          className="ml-6 text-xl font-bold text-white transition-colors hover:text-green-500"
+          className="text-xl font-bold text-white transition-colors hover:text-green-500"
         >
           Unu
         </a>
       </Link>
 
-      <Burger
-        className="mr-6"
-        color="white"
-        opened={isToggled}
-        onClick={() => setIsToggled(!isToggled)}
-      />
+      <Burger color="white" opened={isToggled} onClick={() => setIsToggled(!isToggled)} />
 
       <ul
         className={`${
